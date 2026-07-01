@@ -95,7 +95,29 @@ The `docs` folder contains:
 - ✅ Project Documentation
 - ✅ Project Structure Setup
 
+## 📅 Day 02
 
+- ✅ Backend Setup
+- ✅ Express.js Server Configuration
+- ✅ PostgreSQL Installation & Configuration
+- ✅ Database Connection Setup
+- ✅ Environment Variables Configuration
+- ✅ Backend Folder Structure Setup
+- ✅ Health Check API
+- ✅ Project Ready for Authentication Module
+
+## 📅 Day 03
+
+- ✅ Authentication Module Setup
+- ✅ User Registration API
+- ✅ User Login API
+- ✅ Password Hashing using bcrypt
+- ✅ JWT Token Generation
+- ✅ Authentication Middleware
+- ✅ Protected Profile API
+- ✅ Input Validation & Error Handling
+- ✅ Thunder Client API Testing
+- ✅ Project Ready for Company Management Module
 
 
 # 👨‍💻 Author

@@ -8,12 +8,18 @@ dotenv.config();
 
 const pool = require("./src/config/db");
 
+// Routes
+const authRoutes = require("./src/routes/authRoutes");
+
+
+
 const app = express();
 
 app.use(cors());
 app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());
+app.use("/api/auth", authRoutes);
 
 app.get("/", (req, res) => {
     res.json({
