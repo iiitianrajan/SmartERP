@@ -145,6 +145,18 @@ The `docs` folder contains:
 - ✅ Quick Actions Widget
 - ✅ Responsive Dashboard UI
 
+## 📅 Day 06
+
+- ✅ Ledger Management Module
+- ✅ PostgreSQL Ledger Table
+- ✅ Create Ledger API
+- ✅ Get All Ledgers API
+- ✅ Get Ledger By ID API
+- ✅ Update Ledger API
+- ✅ Delete Ledger API
+- ✅ JWT Protected Ledger Routes
+- ✅ Thunder Client API Testing
+
 
 # 👨‍💻 Author
 

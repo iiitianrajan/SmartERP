@@ -11,6 +11,7 @@ const pool = require("./src/config/db");
 // Routes
 const authRoutes = require("./src/routes/authRoutes");
 const companyRoutes = require("./src/routes/companyRoutes");
+const ledgerRoutes = require("./src/routes/ledgerRoutes");
 
 
 
@@ -22,6 +23,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/company",companyRoutes)
+app.use("/api/ledger",ledgerRoutes)
 
 app.get("/", (req, res) => {
     res.json({
