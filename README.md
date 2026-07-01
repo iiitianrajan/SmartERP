@@ -131,6 +131,20 @@ The `docs` folder contains:
 - ✅ User-specific company access
 - ✅ Maximum 5 companies validation
 
+## 📅 Day 05
+
+- ✅ React + Vite Setup
+- ✅ Tailwind CSS Configuration
+- ✅ Dashboard Layout
+- ✅ Sidebar Navigation
+- ✅ Navbar Component
+- ✅ Dashboard Statistics Cards
+- ✅ Sales Overview Chart
+- ✅ Profile Card
+- ✅ Recent Activity Widget
+- ✅ Quick Actions Widget
+- ✅ Responsive Dashboard UI
+
 
 # 👨‍💻 Author
 
