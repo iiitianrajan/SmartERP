@@ -10,6 +10,7 @@ const pool = require("./src/config/db");
 
 // Routes
 const authRoutes = require("./src/routes/authRoutes");
+const companyRoutes = require("./src/routes/companyRoutes");
 
 
 
@@ -20,6 +21,7 @@ app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());
 app.use("/api/auth", authRoutes);
+app.use("/api/company",companyRoutes)
 
 app.get("/", (req, res) => {
     res.json({

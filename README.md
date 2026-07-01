@@ -119,6 +119,18 @@ The `docs` folder contains:
 - ✅ Thunder Client API Testing
 - ✅ Project Ready for Company Management Module
 
+## 📅 Day 04
+
+
+- ✅ Create Company
+- ✅ Get All Companies
+- ✅ Get Company By ID
+- ✅ Update Company
+- ✅ Delete Company
+- ✅ JWT Protected Routes
+- ✅ User-specific company access
+- ✅ Maximum 5 companies validation
+
 
 # 👨‍💻 Author
 
