@@ -12,6 +12,7 @@ const pool = require("./src/config/db");
 const authRoutes = require("./src/routes/authRoutes");
 const companyRoutes = require("./src/routes/companyRoutes");
 const ledgerRoutes = require("./src/routes/ledgerRoutes");
+const groupRoutes = require("./src/routes/groupRoutes");
 
 
 
@@ -24,6 +25,7 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/company",companyRoutes)
 app.use("/api/ledger",ledgerRoutes)
+app.use("/api/group",groupRoutes);
 
 app.get("/", (req, res) => {
     res.json({

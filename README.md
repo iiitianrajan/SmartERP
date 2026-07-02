@@ -157,6 +157,22 @@ The `docs` folder contains:
 - ✅ JWT Protected Ledger Routes
 - ✅ Thunder Client API Testing
 
+## 📅 Day 07
+
+- ✅ Group Management Module
+- ✅ PostgreSQL Groups Table
+- ✅ Create Group API
+- ✅ Get All Groups API
+- ✅ Get Group By ID API
+- ✅ Update Group API
+- ✅ Delete Group API
+- ✅ Duplicate Group Validation
+- ✅ Company Validation
+- ✅ JWT Protected Group Routes
+- ✅ PostgreSQL Integration
+- ✅ Thunder Client API Testing
+- ✅ Project Ready for Stock Management Module
+
 
 # 👨‍💻 Author
 
