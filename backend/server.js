@@ -13,6 +13,9 @@ const authRoutes = require("./src/routes/authRoutes");
 const companyRoutes = require("./src/routes/companyRoutes");
 const ledgerRoutes = require("./src/routes/ledgerRoutes");
 const groupRoutes = require("./src/routes/groupRoutes");
+const unitRoutes = require("./src/routes/unitRoutes");
+const stockGroupRoutes = require("./src/routes/stockGroupRoutes");
+const stockItemRoutes = require("./src/routes/stockItemRoutes");
 
 
 
@@ -26,6 +29,9 @@ app.use("/api/auth", authRoutes);
 app.use("/api/company",companyRoutes)
 app.use("/api/ledger",ledgerRoutes)
 app.use("/api/group",groupRoutes);
+app.use("/api/unit",unitRoutes);
+app.use("/api/stock-group",stockGroupRoutes);
+app.use("/api/stock-item",stockItemRoutes);
 
 app.get("/", (req, res) => {
     res.json({

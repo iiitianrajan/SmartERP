@@ -173,6 +173,23 @@ The `docs` folder contains:
 - ✅ Thunder Client API Testing
 - ✅ Project Ready for Stock Management Module
 
+## 📅 Day 08
+
+- ✅ Stock Management Module
+- ✅ PostgreSQL Units Table
+- ✅ PostgreSQL Stock Groups Table
+- ✅ PostgreSQL Stock Items Table
+- ✅ Units Management CRUD APIs
+- ✅ Stock Groups Management CRUD APIs
+- ✅ Stock Items Management CRUD APIs
+- ✅ Company Validation
+- ✅ Stock Group Validation
+- ✅ Unit Validation
+- ✅ Duplicate SKU Validation
+- ✅ PostgreSQL Foreign Key Relationships
+- ✅ JWT Protected Routes
+- ✅ Thunder Client API Testing
+- ✅ Project Ready for Purchase Voucher Module
 
 # 👨‍💻 Author
 
